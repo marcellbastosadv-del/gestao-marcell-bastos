@@ -8,33 +8,31 @@
 }
 ```
 
-4. **Clique em "Commit new file"**
+6. **Commit changes**
 
 ---
 
-## 🔧 **ETAPA 3: FORÇAR REDEPLOY NO VERCEL**
+### **PASSO 2: Aguardar Redeploy**
 
-1. **Vá para o Vercel Dashboard:**
-```
-   https://vercel.com/dashboard
-```
-
-2. **Clique no projeto "gestao-marcell-bastos"**
-
-3. **Vá na aba "Deployments" (no menu superior)**
-
-4. **Clique nos 3 pontinhos (...) no deployment mais recente**
-
-5. **Clique em "Redeploy"**
-
-6. **Confirme: "Redeploy"**
-
-7. ⏳ **Aguarde 2-3 minutos...**
+O Vercel vai fazer redeploy automático em **1-2 minutos**.
 
 ---
 
-## ✅ **VERIFICAR SE FUNCIONOU:**
+## 🎯 **ALTERNATIVA: Deletar o package.json**
 
-Após o redeploy, acesse:
+Se o erro continuar:
+
+1. No GitHub, clique no **`package.json`**
+2. Clique nos **3 pontinhos (...)** no canto direito
+3. Clique em **"Delete file"**
+4. Confirme: **"Commit changes"**
+
+O Vercel funciona perfeitamente **SEM** o `package.json` para HTML puro!
+
+---
+
+## ✅ **Após corrigir:**
+
+Acesse novamente:
 ```
-https://gestao-marcell-bastos.vercel.app
+https://gestao-marcell-bastos-git-main-marcells-projects-1d212a1c.vercel.app/
