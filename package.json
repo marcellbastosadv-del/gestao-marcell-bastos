@@ -1,0 +1,40 @@
+{
+  "name": "gestao-marcell-bastos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site, no build needed'"
+  }
+}
+```
+
+4. **Clique em "Commit new file"**
+
+---
+
+## 🔧 **ETAPA 3: FORÇAR REDEPLOY NO VERCEL**
+
+1. **Vá para o Vercel Dashboard:**
+```
+   https://vercel.com/dashboard
+```
+
+2. **Clique no projeto "gestao-marcell-bastos"**
+
+3. **Vá na aba "Deployments" (no menu superior)**
+
+4. **Clique nos 3 pontinhos (...) no deployment mais recente**
+
+5. **Clique em "Redeploy"**
+
+6. **Confirme: "Redeploy"**
+
+7. ⏳ **Aguarde 2-3 minutos...**
+
+---
+
+## ✅ **VERIFICAR SE FUNCIONOU:**
+
+Após o redeploy, acesse:
+```
+https://gestao-marcell-bastos.vercel.app
